@@ -2,7 +2,6 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="./assets/javascript/functions.js"></script>
     <script type="text/javascript" src="./assets/javascript/script.js"></script>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -12,19 +11,19 @@
       <form method="post" action:"/" id=formulaire>
         <fieldset>
           <legend>Formulaire</legend>
-          <div id="nom">
-            <label for="nom">Nom&nbsp;:</label><input type="text" name="nom" placeholder="Veuillez insérer votre nom">
+          <div>
+            <label for="nom">Nom&nbsp;:</label><input type="text" id="nom" name="nom" placeholder="Veuillez insérer votre nom">
           </div>
-          <div id=prenom>
-            <label for="prenom">Prenom&nbsp;:</label><input type="text" name="prenom" placeholder="Veuillez insérer votre prénom">
+          <div>
+            <label for="prenom">Prenom&nbsp;:</label><input type="text" id=prenom name="prenom" placeholder="Veuillez insérer votre prénom">
           </div>
-          <div id=mail>
-            <label for="mail">Email&nbsp;:</label><input type="email" name="mail" placeholder="Veuillez insérer votre mail">
+          <div>
+            <label for="mail">Email&nbsp;:</label><input type="email" id=mail name="mail" placeholder="Veuillez insérer votre mail">
           </div>
-          <div id="password">
-            <label for="password">Mot de Passe&nbsp;:</label><input type="password" name="password" placeholder="Veuillez insérer votre mdp">
+          <div>
+            <label for="password">Mot de Passe&nbsp;:</label><input type="password" id="password" name="password" placeholder="Veuillez insérer votre mdp">
           </div>
-          <input type="submit" value="Envoyer">
+          <input type="submit" value="Envoyer" onclick="validerFrm()">
           <input type="reset" value="Annuler">
         </fieldset>
       </form>
