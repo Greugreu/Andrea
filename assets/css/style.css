@@ -1,0 +1,20 @@
+body{
+  font-size: 12px
+  font-family: arial, verdana, sans-serif;
+}
+div#nom{
+  color: red
+}
+div#prenom{
+  color: rebeccapurple
+}
+div#mail{
+  color: #42f46e
+}
+div#password{
+  color: rgb(65, 172, 244)
+}
+body label input{
+  display: inline-block;
+  width: 19%
+}
