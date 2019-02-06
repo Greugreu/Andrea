@@ -1,8 +1,9 @@
+
 function validerFrm(){
-  var nom=document.getElementById("nom").value;
-  var prenom=document.getElementById("prenom").value;
-  var mail=document.getElementById("mail").value;
-  var password=document.getElementById("password").value;
+  var nom=$('#nom').val();
+  var prenom=$('#prenom').val();
+  var mail=$('#mail').val();
+  var password=$('#password').val();
   var error=new Array();
   if (nom===""){
     error.push('Veuillez saisir votre nom');
