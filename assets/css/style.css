@@ -1,20 +1,52 @@
 body{
-  font-size: 12px
+  font-size: 12px;
   font-family: arial, verdana, sans-serif;
 }
+form{
+  background-color: #FAFAFA;
+  padding:10px;
+  width:280px;
+}
+fieldset{
+  padding: 0 20 20 20;
+  margin-bottom: 10px;
+  border:1px solid #DF3F3F;
+}
+legend{
+  color:#DF3F3F;
+  font-weight: bold;
+}
+label{
+  margin-top: 10px;
+  display:block;
+}
+label.inline{
+  display:inline;
+  margin-right: 50px;
+}
+input{
+  background-color: #FFF3F3;
+  padding: 3px;
+  border:1px, solid #F5C5C5;
+  border-radius: 5px;
+  width: 200px;
+  box-shadow: 1px 1px 2px #c0c0c0 inset;
+}
+input[type=sumbit], input[type=reset]{
+  width:100px;
+  margin-left: 5px;
+  box-shadow: 1px 1px 1px #d83f3d;
+  cursor:pointer;
+}
 div#nom{
-  color: red
+  color: red;
 }
 div#prenom{
-  color: rebeccapurple
+  color: rebeccapurple;
 }
 div#mail{
-  color: #42f46e
+  color: #42f46e;
 }
 div#password{
-  color: rgb(65, 172, 244)
-}
-body label input{
-  display: inline-block;
-  width: 19%
+  color: rgb(65, 172, 244);
 }
